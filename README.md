@@ -1,2 +1,3 @@
 # mlhc2020
-Clinical Abbreviation Disambiguation
+Classifying valid abbreviation - longform pairs using contextual word embeddings
+
