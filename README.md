@@ -21,7 +21,7 @@ You will need the below two packages to run the code in this repository:
 <a name="data"></a>
 ## 3. Datasets: ##
 You will need the below datasets to run the code in this repository:
-1. MIMIC III: We use the MIMIC dataset from the Li et al. paper. This is our train dataset
+1. MIMIC III: We use the MIMIC dataset from the Li et al. paper (check the References section below for more info). This is our train dataset
 2. CASI: We use the CASI datasets from https://conservancy.umn.edu/handle/11299/137703. This is our test dataset
 3. UMLS: We use the UMLS map to map longforms in the MIMIC III dataset to clinical concepts
 
