@@ -15,8 +15,8 @@ In this project, we present a model to determine valid abbreviation, longform pa
 <a name="install"></a>
 ## 2. Installation
 You will need the below two packages to run the code in this repository:
-Clinical Bert: We use Clinical BERT to generate contextual word embeddings, the code to install Clinical BERT is in the colab file. More info can be found here - https://github.com/EmilyAlsentzer/clinicalBERT
-CUItoVec: Download the pretrained Clinical Concept embeddings from http://cui2vec.dbmi.hms.harvard.edu/ 
+1. Clinical Bert: We use Clinical BERT to generate contextual word embeddings, the code to install Clinical BERT is in the colab file. 2. More info can be found here - https://github.com/EmilyAlsentzer/clinicalBERT
+3. CUItoVec: Download the pretrained Clinical Concept embeddings from http://cui2vec.dbmi.hms.harvard.edu/ 
 
 <a name="data"></a>
 ## 3. Datasets: ##
@@ -40,6 +40,7 @@ You will need the below datasets to run the code in this repository:
   * MLHC_Project_2.ipynb
   * MLHC_Project_3.ipynb
 2. In the first cell of every colab notebook update the 'loc' variable with your google drive location containing all the data files.
-3.
+3. In MLHC_Project.ipynb, we install and test ClinicalBERT, load the CASI and MIMIC datasets, visualize contexual abbreviation embeddings on our datasets and create part of our training dataset i.e. Steps 1 and 2 in methodology mentioned above. All the cells can be run sequentially to see results. There is code in the notebook that you can run to save intermediate data files, which we recommend, since they take a long time to generate (e.g. BERT embeddings )
+4. 
 
 ## References: ##
