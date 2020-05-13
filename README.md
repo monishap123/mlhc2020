@@ -15,8 +15,8 @@ In this project, we present a model to determine valid abbreviation, longform pa
 <a name="install"></a>
 ## 2. Installation
 You will need the below two packages to run the code in this repository:
-1. Clinical Bert: We use Clinical BERT to generate contextual word embeddings, the code to install Clinical BERT is in the colab file. 2. More info can be found here - https://github.com/EmilyAlsentzer/clinicalBERT
-3. CUItoVec: Download the pretrained Clinical Concept embeddings from http://cui2vec.dbmi.hms.harvard.edu/ 
+1. Clinical Bert: We use Clinical BERT to generate contextual word embeddings, the code to install Clinical BERT is in the colab file. More info can be found here - https://github.com/EmilyAlsentzer/clinicalBERT
+2. CUItoVec: Download the pretrained Clinical Concept embeddings from http://cui2vec.dbmi.hms.harvard.edu/ 
 
 <a name="data"></a>
 ## 3. Datasets: ##
